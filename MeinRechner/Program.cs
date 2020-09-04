@@ -25,7 +25,7 @@ namespace MeinRechner
          int summe = ersterSummandAlsZahl + zweiterSummandAlsZahl;
 
          //Ausgabe
-         Console.WriteLine("Die summe ist: {0}", summe);
+         Console.WriteLine("Die summe beträgt: {0}", summe);
 
          Console.ReadLine();
       }
