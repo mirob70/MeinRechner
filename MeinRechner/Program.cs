@@ -18,11 +18,11 @@ namespace MeinRechner
          string zweiterSummand = Console.ReadLine();
 
          //  Wandel Text in Gleitkommazahlen
-         float ersterSummandAlsZahl = Convert.ToSingle(ersterSummand);
-         float zweiterSummandAlsZahl = Convert.ToSingle(zweiterSummand);
+         double ersterSummandAlsZahl = Convert.ToSingle(ersterSummand);
+         double zweiterSummandAlsZahl = Convert.ToSingle(zweiterSummand);
 
          // Berechnung ausführen
-         float summe = ersterSummandAlsZahl + zweiterSummandAlsZahl;
+         double summe = ersterSummandAlsZahl + zweiterSummandAlsZahl;
 
          //Ausgabe
          Console.WriteLine("Die summe beträgt: {0}", summe);
